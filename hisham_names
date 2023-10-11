@@ -1,32 +1,20 @@
 
+1.	list_t *add_node(list_t **head, const char *str, int num)
+2.	list_t *add_node_end(list_t **head, const char *str, int num)
+3.	int delete_node_at_index(list_t **head, unsigned int index)
+4.	
+
+
+5.	list_t *node_starts_with(list_t *nd, char *pre, char ch)
+6.	ssize_t get_node_index(list_t *h, list_t *nd)
 
 
 
-1.	char *_strcpy(char *dest, const char *sour)
-2.	char *_strdup(const char *st)
-3.	void _puts(char *st)
-4.	int _putchar(char c)
 
-5.	char **strtow(char *str, char *d)
-6.	char **strtow2(char *string, char deli)
-
-
-7.	char *get_hisfile(info_t *info)
-8.	int wr_history(info_t *info)
-9.	int re_history(info_t *info)
-10.	int build_his_t(info_t *info, char *buffer, int line_count)
-11.	int renum_his(info_t *info)
+7.	int _myenv(info_t *info)
+8.	char *_getenv(info_t *info, const char *var_nam)
+9.	int _mysetenv(info_t *info)
+10.	int _myunsetenv(info_t *info)
+11.	int pop_env_list(info_t *info)
 
 
-12.	void info_clear(info_t *info)
-13.	void info_set(info_t *info, char **av)
-14.	void info_free(info_t *info, int free_all)
-15.	
-16.	
-17.	
-18.	
-19.	
-20.	int unset_alias(info_t *infor, char *st)
-21.	int set_alias(info_t *info, char *str1)
-22.	int print_alias(list_t *nd1)
-23.	int _myalias(info_t *info)
