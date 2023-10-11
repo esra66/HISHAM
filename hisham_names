@@ -1,0 +1,36 @@
+int interactive(info_t *info)
+2.	void sign_handle(__attribute__((unused))int sig_num)
+3.	char *conv_num(long int numb, int base, int flag)
+4.	int fd_builtin(info_t *info)
+5.	char *duplicate_ch(char *str_path, int start1, int stop2)
+
+
+
+6.	int _myhistory(info_t *inform)
+7.	void print_err(info_t *info, char *err_st)
+8.	int print_deci(int input, int f_desc)
+9.	void rm_comments(char *buffer)
+10.	char *fd_path(info_t *info, char *str_path, char *comd)
+
+
+------------------------------
+
+int is_delimiter(char d, char *delim)
+11.	int _isalpha(int d)
+
+----------------------------
+int _myexit(info_t *info)
+           int _mycd(info_t *info)
+
+12.	----------------------------------------------------------
+13.	
+14.	
+15.	
+16.	int main(int ac, char **av)
+
+
+
+-------------------------------------------------------------------------------------------
+17.	int rep_alias(info_t *info)
+18.	int rep_vars(info_t *info)
+19.	int rep_str(char **old_string, char *new_string)
