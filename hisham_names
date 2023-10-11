@@ -1,36 +1,32 @@
-int interactive(info_t *info)
-2.	void sign_handle(__attribute__((unused))int sig_num)
-3.	char *conv_num(long int numb, int base, int flag)
-4.	int fd_builtin(info_t *info)
-5.	char *duplicate_ch(char *str_path, int start1, int stop2)
 
 
 
-6.	int _myhistory(info_t *inform)
-7.	void print_err(info_t *info, char *err_st)
-8.	int print_deci(int input, int f_desc)
-9.	void rm_comments(char *buffer)
-10.	char *fd_path(info_t *info, char *str_path, char *comd)
+
+1.	char *_strcpy(char *dest, const char *sour)
+2.	char *_strdup(const char *st)
+3.	void _puts(char *st)
+4.	int _putchar(char c)
+
+5.	char **strtow(char *str, char *d)
+6.	char **strtow2(char *string, char deli)
 
 
-------------------------------
+7.	char *get_hisfile(info_t *info)
+8.	int wr_history(info_t *info)
+9.	int re_history(info_t *info)
+10.	int build_his_t(info_t *info, char *buffer, int line_count)
+11.	int renum_his(info_t *info)
 
-int is_delimiter(char d, char *delim)
-11.	int _isalpha(int d)
 
-----------------------------
-int _myexit(info_t *info)
-           int _mycd(info_t *info)
-
-12.	----------------------------------------------------------
-13.	
-14.	
+12.	void info_clear(info_t *info)
+13.	void info_set(info_t *info, char **av)
+14.	void info_free(info_t *info, int free_all)
 15.	
-16.	int main(int ac, char **av)
-
-
-
--------------------------------------------------------------------------------------------
-17.	int rep_alias(info_t *info)
-18.	int rep_vars(info_t *info)
-19.	int rep_str(char **old_string, char *new_string)
+16.	
+17.	
+18.	
+19.	
+20.	int unset_alias(info_t *infor, char *st)
+21.	int set_alias(info_t *info, char *str1)
+22.	int print_alias(list_t *nd1)
+23.	int _myalias(info_t *info)
