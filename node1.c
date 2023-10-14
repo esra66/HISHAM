@@ -93,8 +93,7 @@ int delete_node_at_index(list_t **head, unsigned int index)
 		free(node);
 		return (1);
 	}
-	prev_node = *head;
-	node = (*head)->next;
+	node = *head;
 	while (node != NULL)
 	{
 		if (counter == index)
